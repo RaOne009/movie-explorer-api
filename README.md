@@ -55,7 +55,7 @@ A fully functional **FastAPI** backend to explore, manage, and filter Movies, Ge
 6. **Access API docs:**
     - Open [http://localhost:8000/docs](http://localhost:8000/docs) in your browser.
 
----
+```
 ## 🧱 Project Structure
 ovie-explorer-api/
 ├── app/                          # 🧠 Core app logic lives here
@@ -74,7 +74,7 @@ ovie-explorer-api/
 ├── requirement.txt              # 📦 Python dependencies
 └── README.md                    # 📖 You’re looking at it!
 
---
+```
 
 ### 😂 Developer Mood While Debugging
 
