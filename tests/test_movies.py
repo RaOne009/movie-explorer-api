@@ -103,14 +103,17 @@ def test_filter_actors_by_genre():
     assert isinstance(data, list)
     assert any("Keanu" in a["name"] for a in data)
 
-
 def test_filter_movies_by_year():
+    # First create the movie
     # movie = create_movie(title="Avatar", year=2009, rating=8.0, review="Visually stunning")
+
+    # Then test the filter
     response = client.get("/movies/?year=2009")
     assert response.status_code == 200
     data = response.json()
     assert isinstance(data, list)
     assert any(m["title"] == "Avatar" for m in data)
+
 
 
 def test_get_all_movies():

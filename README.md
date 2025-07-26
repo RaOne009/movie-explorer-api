@@ -76,8 +76,10 @@ ovie-explorer-api/
 
 ```
 
+### 🧙‍♂️ Magic Behind the Code
+
+![alt text](image.png)
+
 ### 😂 Developer Mood While Debugging
 
 ![Debugging Meme](https://i.imgur.com/0y8Ftya.jpeg)
-
-### 🧙‍♂️ Magic Behind the Code
