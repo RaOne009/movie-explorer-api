@@ -58,7 +58,7 @@ A fully functional **FastAPI** backend to explore, manage, and filter Movies, Ge
 ```
 ## 🧱 Project Structure
 ovie-explorer-api/
-├── app/                          # 🧠 Core app logic lives here
+├── app/                         # 🧠 Core app logic lives here
 │   ├── __init__.py              # 📦 Makes 'app' a package
 │   ├── database.py              # 🗄️ Database connection config
 │   ├── main.py                  # 🚀 FastAPI app and route definitions
