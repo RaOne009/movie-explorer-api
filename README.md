@@ -40,7 +40,7 @@ A fully functional **FastAPI** backend to explore, manage, and filter Movies, Ge
     ```
 
 3. **Configure environment variables:**
-    - Copy `.env.example` to `.env` and update database credentials.
+    - `.env` and update database credentials.
 
 4. **Run database migrations:**
     ```bash
